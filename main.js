@@ -14,8 +14,6 @@ function createWindow() {
     },
   });
 
-  // const startUrl = path.resolve('./dist/index.html');
-  // win.loadFile(startUrl);
   win.loadFile(path.join(__dirname, 'dist/index.html'))
 }
 
