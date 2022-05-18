@@ -20,6 +20,6 @@ You can now start a new 🍎 macOS / 🪟 Windows project using the latest frame
 1. `npm install`
 2. `npm run start`
 
-# 🧪 Run tests
+## 🧪 Run tests
 
 1. `npm run test`
