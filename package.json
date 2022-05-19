@@ -2,7 +2,7 @@
   "name": "electron-tuto",
   "description": "The electron version of tuto is here. Start creating your macOS and Windows apps right now!",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "keywords": ["electron", "boilerplate", "vue", "vuex", "axios", "vite", "pinia"],
   "main": "main.js",
