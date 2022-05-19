@@ -2,7 +2,7 @@
   "name": "electron-tuto",
   "description": "The electron version of tuto is here. Start creating your macOS and Windows apps right now!",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "main.js",
   "scripts": {
     "start": "vite build & electron .",
