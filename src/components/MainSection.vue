@@ -3,12 +3,17 @@
     <div class="hello">
       <span>⚛️</span>
       <h1>
-        {{ !userIsLoggedIn ? "Welcome to Electron Tuto!" : "You are now logged in" }}
+        {{
+          !userIsLoggedIn
+            ? "Welcome to Electron Tuto!"
+            : "You are now logged in"
+        }}
       </h1>
       <p v-if="!userIsLoggedIn">
-        This boilerplate helps you to start creating 
-        <br>
-        your own Vue 3 projects using amazing tools!
+        The electron version of 🍦tuto is here!
+        <br />
+        You can now start a new 🍎 macOS / 🪟 Windows
+        <br />project using the latest frameworks out there.
       </p>
       <ul>
         <li v-if="userIsLoggedIn && $route.name != 'spotify'">
@@ -21,7 +26,7 @@
 </template>
 
 <script>
-import * as session from '@scripts/session'
+import * as session from "@scripts/session"
 export default {
   name: "MainSection",
   props: {
@@ -40,7 +45,6 @@ export default {
   }
 }
 </script>
-
 
 <style>
 h3 {

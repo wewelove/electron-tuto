@@ -9,7 +9,7 @@ export default defineConfig({
     port: '8080',
     open: true
   },
-  base: path.resolve("./dist", "index.html"),
+  base: path.resolve(__dirname, "./dist/"),
   resolve: {
     /**
      * This is where you define your path shortcuts. 
