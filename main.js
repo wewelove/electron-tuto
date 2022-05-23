@@ -10,14 +10,11 @@ function createWindow() {
     width: 800,
     height: 600,
     webPreferences: {
-      nodeIntegration: true,
-      enableRemoteModule: true,
-      contextIsolation: false,
       preload: path.join(__dirname, "preload.js"),
     },
   });
 
-  win.loadFile(path.resolve("./dist", "index.html"));
+  win.loadFile(path.join(__dirname, 'dist/index.html'))
 }
 
 app.on('ready', () => {
