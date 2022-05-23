@@ -7,10 +7,6 @@
 
 <img alt='Website' src="./src/assets/screenshots/login.png" />
 
-The electron version of ⚡️tuto is here!
-
-You can now start a new 🍎 macOS / 🪟 Windows project using the latest frameworks out there.
-
 ## 💎 Features
 - Based on [tuto](https://github.com/morellexf26/tuto.git) boilerplate.
 - Latest Electron version (v18.x).
