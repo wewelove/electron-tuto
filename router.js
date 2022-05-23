@@ -6,7 +6,7 @@
  *   3. Add a new object item to the routes array defining the path, name and component.
  */
 
- import { createRouter, createWebHistory } from "vue-router"
+ import { createRouter, createWebHashHistory } from "vue-router"
  import Login from "./src/pages/Login.vue"
  import Home from "./src/pages/Home.vue"
  import SpotifyTracker from "./src/pages/SpotifyTracker.vue"
@@ -18,12 +18,13 @@
      { path: '/spotify', name: 'spotify', component: SpotifyTracker }
  ]
  
- // 2. Create the 'HTML5 mode'.
- const history = createWebHistory()
- 
+ /**
+  * Fix blank screen on refresh
+  * https://nklayman.github.io/vue-cli-plugin-electron-builder/guide/commonIssues.html#blank-screen-on-builds-but-works-fine-on-serve
+  */
  const router = createRouter({
-     history,
-     routes
+    history: createWebHashHistory(),
+    routes
  })
  
  export default router

@@ -2,7 +2,6 @@ import { useStore } from '@stores/index'
 
 const userIsLoggedIn = (pinia) => {
     const store = useStore(pinia)
-    console.log("userIsLoggedIn", store.userIsLoggedIn)
     return store.userIsLoggedIn
 }
 
