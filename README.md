@@ -33,14 +33,15 @@ Create your project directly from GitHub based on electron-tuto boilerplate righ
 
 ## 🏃🏼‍♂️ Run
 
+In browser
+1. `npm install`
+2. `npm run build`
+3. `npm run dev`
+
+Desktop
 1. `npm install`
 2. `npm run start`
 
-## 🐙 Latest mode
-
-Use all dependencies with "latest" as value.
-
-1. `git checkout dependencies-latest`
 
 ## 🧪 Run tests
 
