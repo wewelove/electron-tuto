@@ -9,7 +9,7 @@
 
 ## 💎 Features
 - Based on [tuto](https://github.com/morellexf26/tuto.git) boilerplate.
-- Latest Electron version (v18.x).
+- Latest Electron version (v19.x).
 
 ## 🏗 Build for distribution
 
