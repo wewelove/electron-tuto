@@ -5,6 +5,10 @@
   "version": "1.1.2",
   "license": "MIT",
   "keywords": ["electron", "boilerplate", "vue", "vuex", "axios", "vite", "pinia"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morellexf26/electron-tuto.git"
+  },
   "main": "main.js",
   "scripts": {
     "start": "vite build & electron .",
