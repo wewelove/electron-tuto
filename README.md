@@ -26,7 +26,9 @@
 ## 🏁 Start
 Create your project directly from GitHub based on electron-tuto boilerplate right now:
 
-[![Generate your project](https://img.shields.io/badge/generate%20your%20project-lightblue.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf26/electron-tuto/generate)
+<a href="https://github.com/morellexf26/electron-tuto/generate"> 
+<img src=".github/images/generate-your-project.svg"/>
+</a>
 
 <br>
 
