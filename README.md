@@ -9,7 +9,8 @@
 
 <img src=".github/images/built-with.svg">
 <img src=".github/images/uses-js.svg">
-<img src=".github/images/packager-not-working.svg">
+
+<br>
 
 <img alt='Website' src="./src/assets/screenshots/login.png" />
 
@@ -32,9 +33,9 @@ Create your project directly from GitHub based on electron-tuto boilerplate righ
 
 <br>
 
-## 🧱 Development
+## 🧱 Deploy
 
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/90)
+`npm run electron:build`
 
 <br>
 

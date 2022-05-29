@@ -2,7 +2,7 @@
  * 📡 This script is intended to be used to save all API calls.
  */
 import axios from 'axios';
-const BEARER_TOKEN = import.meta.env.VITE_SPOTIFY_AUTHORIZATION_BEARER_TOKEN
+const BEARER_TOKEN = process.env.VUE_APP_SPOTIFY_AUTHORIZATION_BEARER_TOKEN
 const HEADERS = {
     headers: { Authorization: `Bearer ${BEARER_TOKEN}` }
 };

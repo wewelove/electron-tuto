@@ -1,47 +1,77 @@
 {
   "name": "electron-tuto",
   "description": "The electron version of tuto is here. Start creating your macOS and Windows apps right now!",
+  "version": "1.2.4",
   "private": false,
-  "version": "1.1.4",
   "license": "MIT",
   "keywords": ["electron", "boilerplate", "vue", "vuex", "axios", "vite", "pinia"],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/morellexf26/electron-tuto.git"
-  },
-  "main": "main.js",
   "scripts": {
-    "start": "vite build & electron .",
-    "electron-packager-macos": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=./src/assets/icons/mac/icon.icns --prune=true --out=release-builds",
-    "electron-packager-win": "electron-packager . electron-tuto --overwrite --asar=true --platform=win32 --arch=ia32 --icon=./src/assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=tuto --version-string.FileDescription=tuto --version-string.ProductName='Electron Tuto'",
-    "dev": "vite",
+    "serve": "vue-cli-service serve",
     "test": "jest",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
   },
+  "main": "background.js",
   "dependencies": {
-    "axios": "^0.27.2",
-    "jest": "^27.0.0",
-    "pinia": "^2.0.14",
-    "pinia-plugin-persist": "^1.0.0",
-    "vue": "^3.2.33",
-    "vue-router": "^4.0.15"
+    "@electron/remote": "^2.0.8",
+    "core-js": "^3.8.3",
+    "vue": "^3.2.13"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.10",
-    "@babel/preset-env": "^7.17.12",
+    "axios": "^0.27.2",
+    "jest": "^27.0.0",
     "@pinia/testing": "^0.0.12",
-    "@vitejs/plugin-vue": "^2.3.3",
     "@vue/cli-plugin-unit-jest": "^5.0.4",
     "@vue/test-utils": "^2.0.0-rc.21",
     "@vue/vue3-jest": "^27.0.0",
     "babel-jest": "^27.0.0",
-    "babel-preset-vite": "^1.0.4",
-    "electron": "^19.0.0",
-    "electron-packager": "^15.5.1",
     "identity-obj-proxy": "^3.0.0",
-    "sass": "^1.51.0",
-    "vite": "^2.9.9",
-    "vue-router-mock": "^0.1.7"
-  }
+    "vue-router-mock": "^0.1.7",
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "electron": "^19.0.0",
+    "electron-builder": "^23.0.3",
+    "electron-devtools-installer": "^3.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "howler": "^2.2.3",
+    "pinia": "^2.0.14",
+    "pinia-plugin-persist": "^1.0.0",
+    "vue-cli-plugin-electron-builder": "~2.1.1",
+    "vue-router": "^4.0.15"
+  },
+  "overrides": {
+    "vue-cli-plugin-electron-builder": {
+      "electron-builder": "^23.0.3"
+    }
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "vue/multi-word-component-names": 0
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
 }
