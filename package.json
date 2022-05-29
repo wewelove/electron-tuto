@@ -1,10 +1,14 @@
 {
   "name": "electron-tuto",
   "description": "The electron version of tuto is here. Start creating your macOS and Windows apps right now!",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "private": false,
   "license": "MIT",
   "keywords": ["electron", "boilerplate", "vue", "axios", "pinia"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morellexf26/electron-tuto.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "test": "jest",
