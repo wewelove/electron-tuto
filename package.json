@@ -1,10 +1,10 @@
 {
   "name": "electron-tuto",
-  "description": "The electron version of tuto is here. Start creating your macOS and Windows apps right now!",
-  "version": "1.2.6",
+  "description": "A Electron Starter Boilerplate with Vue 3, Vue Router 4, Pinia 2, Vite 2, Eslint, Axios, Jest and More. Start creating your macOS and Windows apps right now!",
+  "version": "1.2.7",
   "private": false,
   "license": "MIT",
-  "keywords": ["electron", "boilerplate", "vue", "axios", "pinia"],
+  "keywords": ["electron", "boilerplate", "vue", "axios", "pinia", "eslint"],
   "repository": {
     "type": "git",
     "url": "https://github.com/morellexf26/electron-tuto.git"
@@ -21,9 +21,7 @@
   },
   "main": "background.js",
   "dependencies": {
-    "@electron/remote": "^2.0.8",
-    "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "vue": "^3.2.36"
   },
   "devDependencies": {
     "axios": "^0.27.2",
@@ -35,16 +33,18 @@
     "babel-jest": "^27.0.0",
     "identity-obj-proxy": "^3.0.0",
     "vue-router-mock": "^0.1.7",
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "electron": "^19.0.0",
+    "@babel/core": "^7.18.2",
+    "@babel/eslint-parser": "^7.18.2",
+    "@vue/cli-plugin-babel": "~5.0.4",
+    "@vue/cli-plugin-eslint": "~5.0.4",
+    "@vue/cli-service": "~5.0.4",
+    "electron": "^19.0.2",
     "electron-builder": "^23.0.3",
-    "electron-devtools-installer": "^3.1.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3",
+    "@electron/remote": "^2.0.8",
+    "core-js": "^3.22.8",
+    "electron-devtools-installer": "^3.2.0",
+    "eslint": "^8.16.0",
+    "eslint-plugin-vue": "^9.1.0",
     "howler": "^2.2.3",
     "pinia": "^2.0.14",
     "pinia-plugin-persist": "^1.0.0",
