@@ -24,9 +24,8 @@
 
 <img alt='Website' src="./src/assets/screenshots/login.png" />
 
-<br>
-
 ## 💎 Features
+
 - Based on [tuto](https://github.com/morellexf26/tuto.git) boilerplate.
 - Latest Electron version (v19.x).
 
@@ -35,6 +34,7 @@
 ## 🚀 Install
 
 Deploy for distribution (macOS Intel/Silicon)
+
 ```bash
 npm run electron:build
 ```
@@ -59,10 +59,8 @@ npm run start
 
 <br>
 
-
 ## 🧪 Unit tests
 
 ```
 npm run test
 ```
-
