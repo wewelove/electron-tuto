@@ -10,7 +10,7 @@
   </h1>
   <sup>
     <br />
-   A Electron Starter Boilerplate with Vue 3, Vue Router 4, Pinia 2, Vite 2, Eslint, Axios, Jest and More. Start creating your macOS and Windows apps right now!</em>
+   A Electron Starter Boilerplate with Vue 3, Vue Router 4, Pinia 2, Bulma, Eslint, Axios, Jest and More. Start creating your macOS and Windows apps right now!</em>
     <br />
     <br /
 
@@ -28,6 +28,7 @@
 
 - Based on [tuto](https://github.com/morellexf26/tuto.git) boilerplate.
 - Latest Electron version (v19.x).
+- ✨ Bulma.
 
 <br>
 

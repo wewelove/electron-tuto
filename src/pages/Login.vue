@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <UserSessionLink />
+  <div class="columns">
+    <div class="column">
+      <UserSessionLink />
+    </div>
   </div>
 </template>
 

@@ -1,10 +1,18 @@
 {
   "name": "electron-tuto",
-  "description": "A Electron Starter Boilerplate with Vue 3, Vue Router 4, Pinia 2, Eslint, Axios, Jest and More. Start creating your macOS and Windows apps right now!",
-  "version": "1.2.8",
+  "description": "A Electron Starter Boilerplate with Vue 3, Vue Router 4, Pinia 2, Bulma, Eslint, Axios, Jest and More. Start creating your macOS and Windows apps right now!",
+  "version": "1.2.9",
   "private": false,
   "license": "MIT",
-  "keywords": ["electron", "boilerplate", "vue", "axios", "pinia", "eslint"],
+  "keywords": [
+    "electron",
+    "boilerplate",
+    "vue",
+    "axios",
+    "pinia",
+    "bulma",
+    "eslint"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/morellexf26/electron-tuto.git"
@@ -24,32 +32,33 @@
     "vue": "^3.2.36"
   },
   "devDependencies": {
-    "axios": "^0.27.2",
-    "jest": "^27.0.0",
-    "@pinia/testing": "^0.0.12",
-    "@vue/cli-plugin-unit-jest": "^5.0.4",
-    "@vue/test-utils": "^2.0.0-rc.21",
-    "@vue/vue3-jest": "^27.0.0",
-    "babel-jest": "^27.0.0",
-    "identity-obj-proxy": "^3.0.0",
-    "vue-router-mock": "^0.1.7",
     "@babel/core": "^7.18.2",
     "@babel/eslint-parser": "^7.18.2",
+    "@electron/remote": "^2.0.8",
+    "@pinia/testing": "^0.0.12",
     "@vue/cli-plugin-babel": "~5.0.4",
     "@vue/cli-plugin-eslint": "~5.0.4",
+    "@vue/cli-plugin-unit-jest": "^5.0.4",
     "@vue/cli-service": "~5.0.4",
+    "@vue/test-utils": "^2.0.0-rc.21",
+    "@vue/vue3-jest": "^27.0.0",
+    "bulma": "^0.9.4",
+    "axios": "^0.27.2",
+    "babel-jest": "^27.0.0",
+    "core-js": "^3.22.8",
     "electron": "^19.0.2",
     "electron-builder": "^23.0.3",
-    "@electron/remote": "^2.0.8",
-    "core-js": "^3.22.8",
     "electron-devtools-installer": "^3.2.0",
     "eslint": "^8.16.0",
     "eslint-plugin-vue": "^9.1.0",
     "howler": "^2.2.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.0.0",
     "pinia": "^2.0.14",
     "pinia-plugin-persist": "^1.0.0",
     "vue-cli-plugin-electron-builder": "~2.1.1",
-    "vue-router": "^4.0.16"
+    "vue-router": "^4.0.16",
+    "vue-router-mock": "^0.1.7"
   },
   "overrides": {
     "vue-cli-plugin-electron-builder": {

@@ -1,7 +1,7 @@
 <template>
   <MainSection>
     <li>
-      <a v-on:click="login" id="btn-login">{{ !userIsLoggedIn ? "Log In" : "Log out" }}</a>
+      <button class="button is-link is-light mt-5" v-on:click="login" id="btn-login">{{ !userIsLoggedIn ? "Log In" : "Log out" }}</button>
     </li>
   </MainSection>
 </template>

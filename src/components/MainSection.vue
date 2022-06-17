@@ -1,15 +1,16 @@
 <template>
-  <div class="container">
-    <div class="hello">
+  <div class="columns">
+    <div class="column">
       <span>⚛️</span>
-      <h1>
+      <h1 class="title">
         {{
           !userIsLoggedIn
             ? "Welcome to Electron Tuto!"
             : "You are now logged in"
         }}
       </h1>
-      <p v-if="!userIsLoggedIn">
+      <br>
+      <p class="subtitle" v-if="!userIsLoggedIn">
         The electron version of 🍦tuto is here!
         <br />
         You can now start a new 🍎 macOS / 🪟 Windows
@@ -17,7 +18,7 @@
       </p>
       <ul>
         <li v-if="userIsLoggedIn && $route.name != 'spotify'">
-          <a v-on:click="navigateToSpotify">Spotify Tracker</a>
+          <button class="button is-primary is-light mt-5 mr-5" v-on:click="navigateToSpotify">Spotify Tracker</button>
         </li>
         <slot />
       </ul>

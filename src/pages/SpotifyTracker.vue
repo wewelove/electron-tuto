@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
+  <div class="container subtitle">
     <MainSection>
       <li>
-        <a v-on:click="navigateToHome">Go Home</a>
+        <button class="button is-link is-light mt-5" v-on:click="navigateToHome">Go Home</button>
       </li>
     </MainSection>
     <br />

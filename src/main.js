@@ -7,8 +7,8 @@
  import router from '../router.js'
  import { createPinia } from 'pinia'
  import piniaPersist from 'pinia-plugin-persist'
-//  import { useStore } from '@stores/index'
  import * as session from '@scripts/session'
+ import 'bulma/css/bulma.css'
  import "@assets/css/index.css"
  const app = createApp(App)
  const pinia = createPinia()
@@ -18,9 +18,6 @@
  
  router.beforeEach((from, to, next) => {
      // ✅ Check if user has logged in to decide if we should show the login page or not.
-    //  const store = useStore(pinia)
-    //  console.log(store)
-    //  console.log(from)
      const userIsLoggedIn = session.userIsLoggedIn(pinia)
      if (from.name != 'login' && !userIsLoggedIn) {
          next({
