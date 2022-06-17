@@ -46,7 +46,7 @@ npm install
 
 npm run build
 
-npm run dev
+npm run serve
 ```
 
 Run dev as program
@@ -54,7 +54,7 @@ Run dev as program
 ```bash
 npm install
 
-npm run start
+npm run electron:serve
 ```
 
 <br>

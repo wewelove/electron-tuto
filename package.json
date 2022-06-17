@@ -1,7 +1,7 @@
 {
   "name": "electron-tuto",
-  "description": "A Electron Starter Boilerplate with Vue 3, Vue Router 4, Pinia 2, Vite 2, Eslint, Axios, Jest and More. Start creating your macOS and Windows apps right now!",
-  "version": "1.2.7",
+  "description": "A Electron Starter Boilerplate with Vue 3, Vue Router 4, Pinia 2, Eslint, Axios, Jest and More. Start creating your macOS and Windows apps right now!",
+  "version": "1.2.8",
   "private": false,
   "license": "MIT",
   "keywords": ["electron", "boilerplate", "vue", "axios", "pinia", "eslint"],
@@ -49,7 +49,7 @@
     "pinia": "^2.0.14",
     "pinia-plugin-persist": "^1.0.0",
     "vue-cli-plugin-electron-builder": "~2.1.1",
-    "vue-router": "^4.0.15"
+    "vue-router": "^4.0.16"
   },
   "overrides": {
     "vue-cli-plugin-electron-builder": {
